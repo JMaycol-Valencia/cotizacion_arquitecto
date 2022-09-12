@@ -1,6 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="duXvSguw2q8PD_XZzSnz" name="Página-1">
+<<<<<<< HEAD
         <mxGraphModel dx="1618" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+=======
+        <mxGraphModel dx="1126" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+>>>>>>> 3894b62f18f340f51466d8f00a2496e1287a7f70
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -17,7 +21,11 @@
                     <mxGeometry y="78" width="370" height="62" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="cotizacion" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+<<<<<<< HEAD
                     <mxGeometry x="60" y="120" width="310" height="230" as="geometry"/>
+=======
+                    <mxGeometry x="70" y="290" width="310" height="220" as="geometry"/>
+>>>>>>> 3894b62f18f340f51466d8f00a2496e1287a7f70
                 </mxCell>
                 <mxCell id="20" value="cotizacion_id    INTEGER (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="19" vertex="1">
                     <mxGeometry y="26" width="310" height="26" as="geometry"/>
@@ -25,11 +33,19 @@
                 <mxCell id="21" value="cotizacion_concepto    TEXT    NOT NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="19" vertex="1">
                     <mxGeometry y="52" width="310" height="26" as="geometry"/>
                 </mxCell>
+<<<<<<< HEAD
                 <mxCell id="22" value="cotizacion_encargado     VARCHAR(35)    NOT NULL&#10;&#10;cotizacion_pagoTarjeta    BOOLEAN    NOT NULL&#10;&#10;cotizacion_total    DECIMAL(12,2)    NOT NULL&#10;&#10;cliente_id INTEGER (FK)&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="19" vertex="1">
                     <mxGeometry y="78" width="310" height="152" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="obra" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
                     <mxGeometry x="60" y="520" width="310" height="170" as="geometry"/>
+=======
+                <mxCell id="22" value="cotizacion_vendedor      VARCHAR(35)    NOT NULL&#10;&#10;cotizacion_pagoTarjeta    BOOLEAN    NOT NULL&#10;&#10;cotizacion_total    DECIMAL(12,2)    NOT NULL&#10;&#10;cliente_id    INTEGER (FK)&#10;&#10;obra_id    INTEGER(FK)&#10;&#10;&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="19" vertex="1">
+                    <mxGeometry y="78" width="310" height="142" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="obra" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="580" width="310" height="190" as="geometry"/>
+>>>>>>> 3894b62f18f340f51466d8f00a2496e1287a7f70
                 </mxCell>
                 <mxCell id="25" value="obra_id    INTEGER (PK)    " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="24" vertex="1">
                     <mxGeometry y="26" width="310" height="26" as="geometry"/>
@@ -37,8 +53,13 @@
                 <mxCell id="26" value="obra_arquitecto    VARCHAR(35)    NOT NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="24" vertex="1">
                     <mxGeometry y="52" width="310" height="26" as="geometry"/>
                 </mxCell>
+<<<<<<< HEAD
                 <mxCell id="27" value="obra_area     DECIMAL(7,3)    NOT NULL&#10;&#10;obra_direccion    TEXT    NOT NULL&#10;&#10;obra_imgLink   TEXT   NOT NULL&#10;&#10;&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="24" vertex="1">
                     <mxGeometry y="78" width="310" height="92" as="geometry"/>
+=======
+                <mxCell id="27" value="obra_area     DECIMAL(7,3)  NOT NULL&#10;&#10;obra_direccion    TEXT    NOT NULL&#10;&#10;obra_imgLink   TEXT   NOT NULL&#10;&#10;obra_material_id    INTEGER(FK)&#10;&#10;&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="24" vertex="1">
+                    <mxGeometry y="78" width="310" height="112" as="geometry"/>
+>>>>>>> 3894b62f18f340f51466d8f00a2496e1287a7f70
                 </mxCell>
                 <mxCell id="28" value="obra_material" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
                     <mxGeometry x="550" y="490" width="310" height="360" as="geometry"/>
